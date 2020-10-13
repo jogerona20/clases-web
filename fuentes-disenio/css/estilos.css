@@ -14,6 +14,41 @@ body header {
 
 body header h1{
 	margin: 0 auto;
+	font-family: 'Sansita Swashed', cursive;
 	font-weight: 700;
  	text-shadow: 5px 5px grey;
+}
+
+body header nav ul li {
+    display: inline-block; /*rompe caja*/
+    background: #000;
+    color: #FFF;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 5px 5px #FFF;
+    margin: 0 20px;
+}
+
+body header nav ul li:hover {
+    background: #FFF;
+    color: #000;
+    box-shadow: 5px 5px #000;
+}
+
+footer{
+    background: #439ba8;
+    height: 100px;
+    text-align: center;
+}
+
+#seccion1 {
+    background: #FFF;
+    border: 3px solid #000;
+}
+
+#seccion1 article {
+    display: inline-block;
+    border:2px solid red;
+    width: 48%;
+    vertical-align: top;
 }
