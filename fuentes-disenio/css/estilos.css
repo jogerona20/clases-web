@@ -1,0 +1,19 @@
+body {
+    background: #c3dfe3; /*fondo*/
+    max-width: 1024px; /*ancho maximo */
+    margin: 0 auto;
+}
+
+body header {
+    background: #439ba8;
+    color: #FFF;
+    font-weight:700;
+    text-align: center;
+    padding: 10px;
+}
+
+body header h1{
+	margin: 0 auto;
+	font-weight: 700;
+ 	text-shadow: 5px 5px grey;
+}
