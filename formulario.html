@@ -3,47 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulario</title>
 </head>
 <body>
-    <form action="formulario.html">
-    <h3>texto</h3>
-    <label for="nombre">Nombre</label>
-    <input id="nombre" name="nombre" type="text" placeholder="Ingrese su nombre completo">
+    <form action="formulario.html" autocomplete="on">
+        <h3>texto</h3>
+        <fieldset>
+            <label for="nombre">Nombre</label>
+            <input id="nombre" name="nombre" type="text" placeholder="Ingrese su nombre completo" size="50" value="Juan" maxlength="10" disabled autofocus>
+        </fieldset>
+       <h3>radio</h3>
+       <fieldset>
+            <legend>Selecciona un genero:</legend>
+            <input type="radio" name="genero" value="hombre" id="hombre" checked> <label for="hombre">Hombre</label>
+            <input type="radio" name="genero" value="mujer"> Mujer
+            <input type="radio" name="genero" value="otro"> Otro
+        </fieldset>
+       
+        <h3>Select</h3>
+        <label for="frutas">Frutas:</label>
+        <select name="frutas" id="frutas">
+            <optgroup label="Favoritas">
+                <option value="fresa">Fresa</option>
+                <option value="naranja" selected>Naranja</option>
+         </optgroup>
+         <optgroup label="otros">
+            <option value="uva">Uva</option>
+        </optgroup>
+        </select>
 
-    <h3>radio</h3>
-    <legend>Elige el tipo de Genero: </legend>
-    <input type="radio" name="genero" value="hombre" id="hombre"> <label for="hombre">Hombre</label>
-    <input type="radio" name="genero" value="mujer"> 
-    <input type="radio" name="genero" value="otro"> 
+        <h3>Textarea</h3>
+        <textarea name="mensaje" id="mensaje" cols="10" rows="10" placeholder="escribe aqui"></textarea>
+    
+        <h3>datalist</h3>
+        <label>Buscador:</label>
+        <input list="buscador">
+        <datalist id="buscador"> 
+            <option value="Internet explorer"></option>
+            <option value="Chrome"></option>
+            <option value="Opera"></option>
+        </datalist>
 
-    <h3>Select</h3>
-    <label>Frutas:</label>
-    <select name="frutas">
-        <option value="fresa">Fresa</option>
-        <option value="naranja">Naranja</option>
-        <option value="uva">Uva</option>
-    </select>
+        <h3>checkbox</h3>
+        <input type="checkbox" name="azul" value="azul"> Azul
+        <input type="checkbox"> Verde
 
-    <h3>TextTarea</h3>
-    <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Escribe aquí"></textarea>
+        <h3>password</h3>
+        <label for="pass">Contrseña</label>
+        <input type="password" name="pass" id="pass" required>
 
-    <h3>Datalist</h3>
-    <label list="buscador">
-    <input type="text">
-    <datalist id="buscador">
-        <option value="Internet Explorer"></option>
-        <option value="Chrome"></option>
-        <option value="Opera"></option>
-        <option value="Mozilla Firefox"></option>
-    </datalist>
+        <h3>Color</h3>
+        <input type="color">
 
-    <h3>CheckBox</h3>
-    <input type="checkbox" name="azul" value="azul"> Azul
-    <input type="checkbox"> Verde
+        <h3>Fecha</h3>
+        <label for="fecha">Fecha</label>
+        <input type="date" id="fecha" name="fecha" min="2000-10-22">
 
-    <button>Enviar</button>
+        <h3>datetime</h3>
+        <input type="datetime-local">
+
+        <h3>time</h3>
+        <input type="time">
+
+        <h3>week</h3>
+        <input type="week">
+
+        <h3>email</h3>
+        <input type="email" autocomplete>
+
+        <h3>range</h3>
+        <input type="range" min="0" max="50" step="10">
+
+        <h3>Number</h3>
+        <input type="number" min="0" max="25" step="3" >
+
+        <h3>Search</h3>
+        <input type="search">
+
+        <h3>URL</h3>
+        <input type="url">
+
+        <h3>archivos</h3>
+        <input type="file" multiple>
+
+        <h3>Telefono</h3>
+        <input type="tel" pattern="" maxlength="10">
+        <br>
+        <br>
+        <br>
+        <input type="submit" name="" id="">
+        <input type="image" src="">
+        <button>Enviar boton</button>
     </form>
-
 </body>
 </html>
