@@ -1,0 +1,31 @@
+/*Selectores básicos*/
+
+/*Selector de etiquetas: Aplica a todas las etiquetas con ese nombre.*/
+/* a {
+    background: red;
+} */
+
+/*Selector de clases: se hace referencia con un punto (.)*/
+/* .parrafo{
+    background: black;
+} */
+
+/*Selector de etiquetas: se hace referencia con un gato (#)*/
+/* #parrafo{
+    background: pink;
+} */
+
+/*Selectores universales: se hace referencia con asterisco(*), utilizar solo 
+para resetear navegador*/
+
+/* *{
+    background: black;
+} */
+
+/*Selectores de atributos
+Se hace referencia al atributo con [], seleccionan los elementos que tienen 
+ese atributo*/
+
+href{
+	color: green;
+}
