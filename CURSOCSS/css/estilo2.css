@@ -1,0 +1,66 @@
+/*Herencia*/
+/*Se utiliza el valor de inherit*/
+
+p {
+    color: green;
+}
+
+a {
+    color: inherit; /*Se le dice que seleccione el color del elemento padre*/
+}
+
+/*
+Etiqueta -> 1
+Clases -> 10
+ID -> 100
+Estilo en linea -> 1000
+!important -> Gana a todos
+*/
+
+/* Important -> especificidad -> casacada*/
+
+p {
+    color: red;
+}
+
+.parrafo {
+    color: peru;
+}
+
+#parrafo {
+    color: blue !important;
+}
+
+/*Modelo de caja / Box model*/
+
+h2 {
+    background: lightblue;
+    height: 100px;
+    width: 100px;
+}
+
+div {
+    background: lightcoral;
+    height: 100px;
+    width: 100px;
+}
+
+a{
+    background: lightgreen;
+    height: 100px;
+}
+
+span {
+    background: red;
+    height: 1500px;
+}
+
+.caja1 {
+    background: lightgreen;
+    box-sizing: border-box;
+   /*  margin: 10px 20px; Y - X*/
+   padding: 0 30px 0 0;
+   border-width: 3px 10px 20px 4px;
+   border-style: solid dotted;
+    border-color: red yellow;
+}
