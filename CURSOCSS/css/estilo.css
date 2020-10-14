@@ -26,6 +26,67 @@ para resetear navegador*/
 Se hace referencia al atributo con [], seleccionan los elementos que tienen 
 ese atributo*/
 
-href{
+[href]{
 	color: green;
+}
+
+[href="#"]{
+	color: red;
+}
+
+[class~="verde"]{
+	color: green;
+}
+/*Seleccionar los elementos que tienen ese atributo y
+o empiecen por ese valor*/
+[class^="rojo"] {
+    color: purple;
+}
+
+/*Seleccionar el elemento que tiene ese atributo y exactamente ese valor o empiece
+por el valor seguido de un guion*/
+
+[class|="verde"] {
+    color: blue;
+}
+
+/*Seleccionar los elementos que tienen ese atributo y terminan con ese valor*/
+[class$="rojo"] {
+    color: pink;
+}
+
+/*Seleccionar los elementos que tienen ese atributo y contenga con ese valor*/
+[class$="rojo"] {
+    color: orange;
+}
+
+/*Selectores combinadores*/
+
+/*Selector de hermano adyacente
+busca todos los hermanos que esten debajo de el que compartan el mismo padre*/
+h1 + h2 {
+    color: red;
+}
+
+/*Selector de hermano general
+buscan todos los hermano que esten debajo de el y 
+que compartan el mismo padre
+*/
+
+h1 ~ h3 {
+    color: green;
+}
+
+/*Selectores descendentes*/
+
+/*Aplica el estilo a todos los elementos que estan dentro de este,
+el estilo aplica a todos los hijos*/
+div span {
+    color: red;
+} 
+
+/*Selector de hijo directo, busca relación directa*/
+
+p > span {
+    color: blue;
 }
