@@ -1,0 +1,138 @@
+body{
+	max-width: 1024px;
+	margin-top: 0 auto;
+}
+
+header{
+    position: relative;
+    display: inline-block;   
+}
+
+header nav{
+    margin-left: 150px;
+    margin-top: 80px;
+   
+    text-align: right;
+    
+    
+}
+
+header nav ul{
+    margin: 0 auto;
+    width: 750px;
+    border-bottom: black 2px solid;
+}
+
+header nav ul li{
+	display: inline-block;
+	margin-left: 25px;
+	margin-right: 15px;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.logo{
+	position: absolute;
+	top: 30px;
+	left: 20px;
+	width: 80px;
+    float: left;
+}
+
+.texto{
+	float: left;
+    display: inline-block;
+    text-align: inherit;
+    font-weight: 780;
+    width: 24%;
+    margin: 30px 0px 65px 50px ;
+    text-align: center;
+}
+
+.Parrafo{
+	font-size: 60px;
+    line-height: 90%;
+    font-family: sans-serif;
+    margin: 0;
+}
+.Parrafo2{
+	font-size:60px;
+	line-height: 90%;
+    font-family: sans-serif;
+    margin: 0 ;
+}
+.Parrafo3{
+	font-size:40px;
+	line-height: 90%;
+    font-family: sans-serif;
+    margin: 0 ;
+}
+.Parrafo4{
+	font-size:35px;
+	line-height: 90%;
+    font-family: sans-serif;
+    margin: 0 ;
+}
+.Parrafo5{
+	line-height: 170%;
+	font-size: 10px;
+	margin: 0 auto;
+	margin-right: 25px;
+	margin-top: 15px;
+}
+.Parrafo6{
+	line-height: 170%;
+	font-size: 10px;
+	margin:0;
+}
+.Parrafo7{
+	line-height: 170%;
+	font-size: 10px;
+	margin: 0 ;
+	margin-right: 25px;
+}
+
+.nube{
+	float: right;
+	margin-top: 60px;
+
+}
+
+footer{
+	background-color: black;
+	color: gray;
+	display: inline-block;
+	width: 100%;
+	padding-bottom: 30px;
+	font-size: 11px;
+}
+
+.footer1{
+	float: left;
+	margin-left: 90px;
+	margin-top: 15px;
+}
+
+.footer2{
+	margin-top: 15px;
+	width: 30%;
+	float: right;
+	margin-right: 20px;
+}
+
+.tex2F1{
+	line-height: 60%;
+	font-size: 20px;
+	color: white;
+	font-size: larger;
+	font-weight: bolder;
+	font-family: sans-serif;
+}
+
+.tex2F2{
+	margin-left: 120px;
+    line-height: 0%;
+}
+.Color{
+	color: rgb(50, 53, 50);
+}
