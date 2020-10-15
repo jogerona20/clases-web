@@ -1,6 +1,6 @@
 body{
 	max-width: 1024px;
-	margin-top: 0 auto;
+	margin: 0 auto;
 }
 
 header{
@@ -11,10 +11,7 @@ header{
 header nav{
     margin-left: 150px;
     margin-top: 80px;
-   
-    text-align: right;
-    
-    
+    text-align: center;
 }
 
 header nav ul{
@@ -25,68 +22,73 @@ header nav ul{
 
 header nav ul li{
 	display: inline-block;
-	margin-left: 25px;
+	margin-left: 15px;
 	margin-right: 15px;
 	font-weight: bold;
-	font-size: 15px;
+	font-size: 20px;
 }
 
 .logo{
 	position: absolute;
 	top: 30px;
 	left: 20px;
-	width: 80px;
+}
+
+#logo{
+    width: 80px;
     float: left;
+    
+}
+
+.div1{
+	display: inline-block;
+	margin-top: 40px;
 }
 
 .texto{
 	float: left;
     display: inline-block;
-    text-align: inherit;
     font-weight: 780;
     width: 24%;
-    margin: 30px 0px 65px 50px ;
+    margin: 30px 30px 0 50px ;
     text-align: center;
+    margin-top: 60px;
 }
 
 .Parrafo{
 	font-size: 60px;
     line-height: 90%;
     font-family: sans-serif;
-    margin: 0;
+    margin: 0 auto;
 }
 .Parrafo2{
 	font-size:60px;
 	line-height: 90%;
     font-family: sans-serif;
-    margin: 0 ;
+    margin: 0 auto;
 }
 .Parrafo3{
 	font-size:40px;
 	line-height: 90%;
     font-family: sans-serif;
-    margin: 0 ;
+    margin: 0 auto;
 }
 .Parrafo4{
 	font-size:35px;
-	line-height: 90%;
     font-family: sans-serif;
     margin: 0 ;
 }
 .Parrafo5{
-	line-height: 170%;
 	font-size: 10px;
-	margin: 0 auto;
+	margin: 0 ;
 	margin-right: 25px;
 	margin-top: 15px;
 }
 .Parrafo6{
-	line-height: 170%;
 	font-size: 10px;
 	margin:0;
 }
 .Parrafo7{
-	line-height: 170%;
 	font-size: 10px;
 	margin: 0 ;
 	margin-right: 25px;
@@ -94,8 +96,7 @@ header nav ul li{
 
 .nube{
 	float: right;
-	margin-top: 60px;
-
+	margin-top: 40px;
 }
 
 footer{
