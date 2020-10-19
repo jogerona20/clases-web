@@ -1,0 +1,84 @@
+body{
+	max-width: 1024px;
+	margin: 0 auto;
+
+}
+
+header{
+	 position: relative;
+}
+header div{
+	display: inline-block;
+}
+
+header nav {
+	margin-left: 30 auto; 
+}
+header nav ul li{
+	display: inline-block;
+	
+}
+.div1{
+	margin-left: 65px;
+}
+#titulo{
+	color: #FFDAB9;
+}
+.lista{
+	background-color: #FF69B4;
+}
+#logo{
+	width: 120px;
+}
+
+.titulo{
+
+}
+
+#person{
+	margin-top: 65px;
+	width: 450px;
+	border-radius: 50%;
+}
+.dtexto{
+	float: left;
+}
+#t1{
+	color: #1E90FF;
+	font-size: 25px;
+}
+
+#t3{
+	margin-left: 300px;
+}
+
+
+footer{
+	background: #FF69B4;
+	color: white;
+	display: inline-block;
+	width: 100%;
+	padding-bottom: 30px;
+	font-size: 11px;
+}
+
+.texto{
+	float: left;
+	margin-left: 25px;
+	margin-top: 15px;
+}
+.imagenes{
+	float: right;
+	margin-right: 35px;
+	margin-top: 45px;
+}
+
+#i1{
+	width: 30px;
+}
+#i2{
+	width: 30px;
+}
+#i3{
+	width: 30px;
+}
