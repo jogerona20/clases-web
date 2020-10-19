@@ -12,7 +12,7 @@ header div{
 }
 
 header nav {
-	margin-left: 30 auto; 
+	margin-left: 30px; 
 }
 header nav ul li{
 	display: inline-block;
@@ -42,6 +42,7 @@ header nav ul li{
 }
 .dtexto{
 	float: left;
+	margin-left: 40px;
 }
 #t1{
 	color: #1E90FF;
@@ -49,7 +50,20 @@ header nav ul li{
 }
 
 #t3{
-	margin-left: 300px;
+	text-align: center;
+	color: #87CEFA;
+}
+
+#Read{
+	font-size: 12px;
+    background: #6B8E23;
+    height: 30px;
+    width: 100px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    color: #ffffff;
+    margin-bottom: 45px;
 }
 
 
