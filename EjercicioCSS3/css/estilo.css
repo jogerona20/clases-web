@@ -11,20 +11,36 @@ header{
 header nav{
 	display: inline-block;
 }
-header nav ul{
-	
-}
 
 header nav ul li{
 	color:#ffffff;
 	display: inline-block;
 	margin-right: 20px;
+	font-size: 14px;
 }
 
 section{
 	background-image: url("../imagenes-ejercicioCSS3/bici.png");
 	height: 500px;
 	background-size: cover;
+}
+footer {
+    background: #303130;
+    color: white;
+}
+.registro {
+    text-align: center;
+    padding: 40px 0 20px;
+}
+
+.registro h2 {
+    margin: 0;
+}
+
+.registro p {
+    display: inline-block;
+    width: 500px;
+    color: #5e5f5f;
 }
 
 .buscar{
@@ -35,7 +51,115 @@ section{
 	background: #000000;
 	border:1px solid #grey;
 	border-radius: 5px;
+
 }
+.seccion1{
+	position: relative;
+}
+
+.seccion1 div {
+	border:5px solid red;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	text-align: center;
+	width: 500px;
+	height: 200px;
+	margin: auto;;
+}
+
+.boton {
+    font-size: 12px;
+    background: #ffffff;
+    height: 30px;
+    width: 100px;
+    font-weight: 600;
+    border: none;
+}
+
+.redes {
+    margin: 30px 0;
+}
+.redes div{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin-right: 25px;
+    border-radius: 50%;
+    background: #5e5f5f;
+    vertical-align: top;
+}
+
+.redes img {
+    width: 15px;
+    padding: 7px 0;
+}
+
+.twitter {
+    padding: 10px 0;
+}
+
+.enlaces {
+    border-bottom: 1px solid #5e5f5f;
+    border-top: 1px solid #5e5f5f;
+    margin: 0 20px;
+    padding: 30px 0 15px;
+}
+
+.enlaces div {
+    width: 23%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.enlaces div h4 {
+    margin: 0 0 8px;
+    font-size: 14px;
+}
+
+.enlaces a {
+    text-decoration: none;
+    color: #5e5f5f;
+    display: block;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.copy {
+    font-size: 12px;
+    padding: 20px;
+}
+
 #logo{
 	width: 120px;
+}
+
+#titulo,#subtitulo{
+	color:#ffffff;
+	font-weight: 700;
+	margin: 0;
+}
+
+#titulo {
+    font-size: 35px;
+}
+
+#subtitulo {
+    font-size: 20px;
+    margin: 14px 0 20px;
+}
+
+#email {
+    background: inherit;
+    width: 400px;
+    height: 25px;
+    border: 1px solid #5e5f5f;
+    padding: 5px 10px;
+}
+
+#unirme {
+    height: 37px;
+    margin-left: -5px;
 }
