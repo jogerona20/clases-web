@@ -8,8 +8,9 @@ header{
 	background: #000000;
 
 }
-header nav{
+header div{
 	display: inline-block;
+    
 }
 
 header nav ul li{
