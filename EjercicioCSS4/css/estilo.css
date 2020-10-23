@@ -1,0 +1,125 @@
+body {
+    max-width: 1024px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    position: relative;
+    margin-bottom: 70px;
+}
+
+header nav {
+ display: inline-block;
+}
+
+header nav ul li {
+    display: inline-block;
+    color: rgb(160, 156, 156);
+    margin-left: 20px;
+    border-bottom: 2px solid silver;
+    font-size: 24px;
+}
+
+aside {
+    display: inline-block;
+    width: 28%;
+    position: absolute;
+    top: 200px;
+    right: 0;
+}
+
+ .aside-1 h2 {
+    font-size: 44px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.aside-1 ul{
+    padding: 0 15px;
+}
+
+.seccion1 {
+    display: inline-block;
+    position: relative;
+    width: 65%;
+    padding: 0 10px;
+}
+
+.seccion2 {
+    display: inline-block;
+    width: 65%;
+    padding: 40px 10px;
+    vertical-align: top;
+}
+
+.seccion2 h2 {
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+}
+
+.seccion2 p {
+    font-size: 12px;
+}
+
+.seccion2 img {
+    width: 60px; 
+}
+
+.seccion2 a {
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.seccion2 article {
+    display: inline-block;
+    width: 31%;
+    margin-right: 10px;
+    vertical-align: top;
+}
+
+.azul {
+    color: #3870bc;
+}
+
+.rosa {
+    color: #ea078d;
+}
+
+.verde {
+    color: #90c60d;
+}
+
+#bgoffer {
+    position: absolute;
+    top: -90px;
+    left: -45px;
+}
+
+#slide {
+    width: 100%;
+}
+
+#banner {
+    width: 100%;
+}
+
+#logo {
+    width: 200px;
+    margin-left: 25px;
+    margin-top: 33px;
+}
+
+#pintura {
+    position: absolute;
+    z-index: -1;
+    top: 60px; 
+}
+
+#buscador {
+    float:right;
+    margin: 20px 15px;
+}
