@@ -1,6 +1,6 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <HelloWorld :msg="titulo" fecha="2020-10-28"/>
 
 </template>
 
@@ -11,6 +11,11 @@ export default {
   name: 'App',
   components: {
     HelloWorld
+  },
+  data(){
+   return {
+      titulo: "Mi Titutlo en vue"
+    }
   }
 }
 </script>
